@@ -33,11 +33,13 @@ class PetsNew extends Component {
             type="text"
             placeholder="Name"
             name="name"
+            value={this.state.name}
             onChange={this.handleOnChange} />
           <input
             type="text"
             placeholder="Description"
             name="description"
+            value={this.state.description}
             onChange={this.handleOnChange} />
           <input
             type="submit"
